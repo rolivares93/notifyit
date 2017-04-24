@@ -1,0 +1,67 @@
+.ntf-container {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 9999999;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%); }
+  .ntf-container.visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0); }
+  .ntf-container .ntf-box {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box; }
+    .ntf-container .ntf-box .ntf-message {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 15px;
+      background-color: #ffffff;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      color: #ffffff;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box; }
+      .ntf-container .ntf-box .ntf-message.success-message {
+        background-color: #27AB5C; }
+      .ntf-container .ntf-box .ntf-message.error-message {
+        background-color: #E8534F; }
+
+/*# sourceMappingURL=notifyit.css.map */

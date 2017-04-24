@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notify it</title>
+	<link rel="stylesheet" type="text/css" href="notifyit.css">
+</head>
+<body>
+
+<a href="#" id="button">Notifyt it</a>
+
+<script src="./notifyit.js"></script>
+<!-- <script src="./notifyit.jquery.js"></script> -->
+<script>
+	var button = document.getElementById('button');
+
+	button.addEventListener('click',function(e) {
+		e.preventDefault();
+
+		notifyit({
+			'message' : 'Lorem ipsum dolor sit amet',
+			'status' : 'success' // success/error
+		});
+	});
+</script>
+
+</body>
+</html>
